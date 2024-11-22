@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlistify | Video/playlist Saver</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="main-container header">
+        <header>
+            <div class="logo-container">
+                <img src="logo.png" alt="#" class="logo">
+                <a href="index.html"><span>PLAYLISTIFY</span></a>
+            </div>
+            <div class="nav-container">
+                <nav class="desktop-menu">
+                    <ul>
+                        <li class="home"><a href="index.html">Home</a></li>
+                        <li><a href="#about-section">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="index.html">Contact Us</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="button-container">
+                <!-- Hamburger icon for mobile menu -->
+                <div class="hamburger-icon" onclick="openMobileMenu()">
+                    &#9776;
+                </div>
+                <!-- Mobile menu structure -->
+                <div id="mobileMenu" class="mobile-menu">
+                    <div class="close-menu" onclick="closeMobileMenu()">×</div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about-section">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#contect-us">Contect us</a></li>
+                    </ul>
+                    <a href="#">
+                        <button class="mobile-button donate-us-button">
+                            <img src="coffee.png" alt="">
+                            Buy Us a Coffee
+                        </button>
+                    </a>
+                </div>
+
+                <button class=" desktop-button donate-us-button">
+                    <img src="coffee.png" alt="">
+                    Buy Us a Coffee
+                </button>
+            </div>
+        </header>
+    </div>
+    <div class="main-container">
+        <section class="about">
+            <div class="top-section">
+                <div class="left">
+                    <div class="keyword">AI Video Saver</div>
+                    <h1>About Us</h1>
+                    <p>At PLAYLISTIFY, we understand that your favorite videos and playlists are more than just
+                        content—they’re
+                        memories, learning moments, and sources of joy. Our tool is designed to help you save and
+                        organize your
+                        collections into easy-to-access categories, making them available anytime, anywhere.</p>
+                    <h3>What We Offer</h3>
+                    <li><b>Ease of Use:</b> Save and categorize your videos and playlists with just a few clicks.</li>
+                    <li><b>Personalized Collections:</b> Create tailored categories that suit your unique needs, from
+                        study
+                        sessions
+                        to
+                        entertainment.</li>
+                    <li><b>Universal Compatibility:</b> Works seamlessly with various video platforms for hassle-free
+                        organization.
+                    </li>
+                    <h3>Our Mission</h3>
+                    <p>We aim to simplify how you manage and enjoy your digital content. With PLAYLISTIFY, you can
+                        organize your
+                        favorites in a way that enhances your viewing experience and keeps everything within reach.</p>
+                    <h3>Why Choose PLAYLISTIFY?</h3>
+                    <li><b>Stay Organized:</b> Create custom categories to declutter your video and playlist libraries.
+                    </li>
+                    <li><b>Save Time:</b> Quickly find what you need without endless scrolling.</li>
+                    <li><b>Enhance Productivity:</b> Perfect for learners, creators, and anyone who loves a
+                        well-structured
+                        library.
+                    </li>
+                    <hr>
+                    <p>Join a growing community of users who are redefining how they manage their digital content with
+                        PLAYLISTIFY.
+                        Whether you're a content enthusiast, a student, or just someone who loves a good playlist, we’re
+                        here to
+                        help
+                        you organize your favorites with ease.</p>
+                </div>
+                <div class="right">
+                    <div class="developer">
+                        <img src="picture.png" alt="">
+                        <div class="p">Sahal Ashfaq</div>
+                        <div class="social">
+                            <a href="https://www.facebook.com/profile.php?id=61566306632271">
+                                <ion-icon name="logo-facebook" class="icon"></ion-icon>
+                            </a>
+                            <a href="https://www.linkedin.com/in/sahal-ashfaq-220ba9318/">
+                                <ion-icon name="logo-linkedin" class="icon"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                    <h1>About Developer</h1>
+                    <p><b>Hello there!</b>
+                        <br>
+                        <br>
+                        My name is Sahal Ashfaq, and I am the proud creator of this innovative tool. As a passionate
+                        developer, I bring expertise in several programming languages and frameworks, including HTML,
+                        CSS, JavaScript, and Python. My professional journey has been dedicated to crafting tools and
+                        solutions that not only showcase my technical proficiency but also make a meaningful impact.
+                        <br>
+                        <br>
+                        I am deeply committed to pushing the boundaries of technology, and this tool is a reflection of
+                        my dedication to delivering user-friendly and efficient solutions. Whether it's designing
+                        seamless interfaces, writing clean and scalable code, or exploring new possibilities in tech, my
+                        focus is always on excellence and innovation.
+                        <br>
+                        <br>
+                        I hope you find this tool valuable and enjoy using it as much as I enjoyed creating it! If you
+                        have any feedback or ideas, feel free to share—I’m always eager to improve and grow. Thank you
+                        for being a part of this journey!
+                    </p>
+                </div>
+            </div>
+
+    </div>
+
+    </section>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="script.js"></script>
+
+</html>

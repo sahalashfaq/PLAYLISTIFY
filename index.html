@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlistify | Video/playlist Saver</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="header-hero">
+        <div class="main-container header">
+            <header>
+                <div class="logo-container">
+                    <img src="logo.png" alt="#" class="logo">
+                    <a href="index.html"><span>PLAYLISTIFY</span></a>
+                </div>
+                <div class="nav-container">
+                    <nav class="desktop-menu">
+                        <ul>
+                            <li class="home"><a href="index.html">Home</a></li>
+                            <li><a href="#about-section">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#contect-us-container">Contact Us</a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+                <div class="button-container">
+                    <!-- Hamburger icon for mobile menu -->
+                    <div class="hamburger-icon" onclick="openMobileMenu()">
+                        &#9776;
+                    </div>
+                    <!-- Mobile menu structure -->
+                    <div id="mobileMenu" class="mobile-menu">
+                        <div class="close-menu" onclick="closeMobileMenu()">×</div>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#about-section">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#contect-us-container">Contect us</a></li>
+                        </ul>
+                        <a href="#">
+                            <button class="mobile-button donate-us-button">
+                                <img src="coffee.png" alt="">
+                                Buy us a Coffee
+                            </button>
+                        </a>
+                    </div>
+
+                    <button class=" desktop-button donate-us-button">
+                        <img src="coffee.png" alt="">
+                        Buy us a Coffee
+                    </button>
+                </div>
+            </header>
+        </div>
+        <div class="main-container">
+            <section class="hero">
+                <div class="left">
+                    <div class="keyword">AI Video Saver</div>
+                    <h1>AI Powered, From Link <br> To Video Saver</h1>
+                    <p>We're passionate about solving the user problem from saving <br> there youtube videos</p>
+                    <div class="hero-button-container">
+                        <a href="#">
+                            <button class="try-button">Try Now</button>
+                        </a>
+                        <a href="#">
+                            <button class="donate-button-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                                    width="24px" fill="#e8eaed">
+                                    <path d="M400-280v-400l200 200-200 200Z" />
+                                </svg>
+                                Donate Us
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="Hero-image.png" alt="">
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="main-container">
+        <section class="nd2-section">
+            <div class="keyword">AI Video Saver</div>
+            <h1>Why Choose?</h1>
+            <div class="features">
+                <div class="f1">
+                    <section>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#e8eaed">
+                            <path
+                                d="M480-80 120-280v-400l360-200 360 200v400L480-80ZM364-590q23-24 53-37t63-13q33 0 63 13t53 37l120-67-236-131-236 131 120 67Zm76 396v-131q-54-14-87-57t-33-98q0-11 1-20.5t4-19.5l-125-70v263l240 133Zm40-206q33 0 56.5-23.5T560-480q0-33-23.5-56.5T480-560q-33 0-56.5 23.5T400-480q0 33 23.5 56.5T480-400Zm40 206 240-133v-263l-125 70q3 10 4 19.5t1 20.5q0 55-33 98t-87 57v131Z" />
+                        </svg>
+                        <h1>Effortless Video Management</h1>
+                    </section>
+                    <p>Organize, save, and track videos or playlists seamlessly with Playlistify's user-friendly
+                        interface.
+                    </p>
+                </div>
+                <div class="f2">
+                    <section>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#e8eaed">
+                            <path
+                                d="M245-400q-51-64-78-141t-27-159q0-27 3-54t9-54l-70 70-42-42 140-140 140 140-42 42-65-64q-7 25-10 50.5t-3 51.5q0 70 22.5 135.5T288-443l-43 43Zm413 273q-23 8-46.5 7.5T566-131L304-253l18-40q10-20 28-32.5t40-14.5l68-5-112-307q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l148 407-100 7 131 61q7 3 15 3.5t15-1.5l157-57q31-11 45-41.5t3-61.5l-55-150q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150q23 63-4.5 122.5T815-184l-157 57Zm-90-265-54-151q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l55 150-76 28Zm113-41-41-113q-6-16 1-30.5t23-20.5q16-6 30.5 1t20.5 23l41 112-75 28Zm8 78Z" />
+                        </svg>
+                        <h1>Remote Access</h1>
+                    </section>
+                    <p>Enjoy the flexibility of managing your playlists from anywhere, anytime.</p>
+                </div>
+                <div class="f3">
+                    <section>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#e8eaed">
+                            <path
+                                d="M240-240h220v-160H240v160Zm0-200h220v-280H240v280Zm260 200h220v-280H500v280Zm0-320h220v-160H500v160ZM200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v80h80v80h-80v80h80v80h-80v80h80v80h-80v80q0 33-23.5 56.5T760-120H200Zm0-80h560v-560H200v560Zm0-560v560-560Z" />
+                        </svg>
+                        <h1> Intuitive Navigation</h1>
+                    </section>
+                    <p>Switch between videos or mark them as complete with just a click.</p>
+                </div>
+                <div class="f4">
+                    <section>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#e8eaed">
+                            <path
+                                d="M496-480ZM80-160l240-320L80-800h520q19 0 36 8.5t28 23.5l216 288-5 7q-27-18-58.5-29.5T751-518L600-720H240l180 240-180 240h200q0 21 3 41t9 39H80Zm611 10 139-138-42-42-97 95-39-39-42 43 81 81Zm29 110q-83 0-141.5-58.5T520-240q0-83 58.5-141.5T720-440q83 0 141.5 58.5T920-240q0 83-58.5 141.5T720-40Z" />
+                        </svg>
+                        <h1>Enhance Productivity</h1>
+                    </section>
+                    <p>Stay focused and efficient by keeping your playlists structured.</p>
+                </div>
+                <div class="f5">
+                    <section>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                            fill="#e8eaed">
+                            <path
+                                d="M280-360v-240q0-33 23.5-56.5T360-680h326L583-783l57-57 200 200-200 200-57-56 103-104H360v240h-80Zm-80 240q-33 0-56.5-23.5T120-200v-600h80v600h480v-160h80v160q0 33-23.5 56.5T680-120H200Z" />
+                        </svg>
+                        <h1>Free & Accessible</h1>
+                    </section>
+                    <p>Completely free with no hidden costs—available directly via your browser.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="main-container">
+        <section class="about-section" id="about-section">
+            <div class="keyword">AI Video Saver</div>
+            <h1>About</h1>
+            <div class="content-area">
+                <div class="left">
+                    <p>Welcome to PLAYLISTIFY! Our tool helps you save, categorize, and manage your favorite videos and
+                        playlists effortlessly. Whether you’re creating collections for learning, entertainment, or
+                        inspiration, PLAYLISTIFY makes it simple and intuitive.
+                        <br>
+                        Discover the joy of streamlined organization and let your collections tell your story.
+                    </p>
+                    <a href="About.html">
+                        <button class="read-more-button">
+                            Read More
+                        </button>
+                    </a>
+                </div>
+                <div class="right">
+                    <img src="logo.png" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="main-container">
+        <div class="contect-us-container" id="contect-us-container">
+            <div class="keyword">AI Video Saver</div>
+             <h1>Contect Us</h1>
+             <p>On</p>
+             <p class="email">sahalashfaqseo@gmail.com</p>
+        </div>
+    </div>
+    <div class="main-container">
+        <footer>
+            <div class="left">
+                <img src="logo.png" alt="" class="logo">
+                <a href="index.html"><span>PLAYLISTIFY<span></span></a>
+                <p>© 2024 Playlistify — Sahal Ashfaq</p>
+            </div>
+            <div class="right">
+                <button class="mobile-button donate-us-button">
+                    <img src="coffee.png" alt="">
+                    Buy Us a Coffee
+                </button>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
